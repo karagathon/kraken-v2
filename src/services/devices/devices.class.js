@@ -1,5 +1,5 @@
 const { Service } = require('feathers-mongoose');
 
-exports.Events = class Events extends Service {
-
+exports.Devices = class Devices extends Service {
+  
 };
