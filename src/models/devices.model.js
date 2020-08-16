@@ -7,9 +7,8 @@ module.exports = function (app) {
   const mongooseClient = app.get('mongooseClient');
   const { Schema } = mongooseClient;
   const schema = new Schema({
-    text: { type: String, required: true }
-  }, {
-    timestamps: true
+    device_id: { type: String, required: true },
+    createAt: { type: Date, 'default': Date.now},
   });
 
   // This is necessary to avoid model compilation errors in watch mode

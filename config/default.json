@@ -28,5 +28,5 @@
       "passwordField": "password"
     }
   },
-  "mongodb": "mongodb+srv://hydraeanUser:hydraean123@cluster0.xvxj7.mongodb.net"
+  "mongodb": "mongodb+srv://hydraeanUser:hydraean123@cluster0.xvxj7.mongodb.net/hydraean"
 }
